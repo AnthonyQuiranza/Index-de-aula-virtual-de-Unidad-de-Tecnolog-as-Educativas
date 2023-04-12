@@ -1,0 +1,158 @@
+:root {
+    --animate-delay: 2s;
+}
+h6 a{
+    color:white;
+}
+@font-face {
+    font-family: "Oscine-bold";
+    src: url("../fonts/Oscine-Bold.otf");
+}
+
+@font-face {
+    font-family: "Open-sans";
+    src: url("../fonts/OpenSans.ttf");
+}
+
+@font-face {
+    font-family: "Graduate";
+    src: url("../fonts/Graduate-Regular.ttf");
+}
+
+html {
+    position: relative;
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-color: transparent !important;
+    user-select: none;
+}
+
+body {
+    background-color: transparent !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.eduvirtual-header {
+    margin: 70px 70px 0px 70px;
+    height: 10%;
+    display: flex;
+}
+
+.eduvirtual-logo {
+    width: 250px;
+    padding-right: 20px;
+}
+
+.eduvirtual-menu {
+    text-align: start;
+    box-shadow: none;
+    font-family: "Oscine-bold";
+    padding-left: 20px;
+    font-size: 150% !important;
+    color: #9D9D9C !important;
+}
+
+
+.col h1 {
+    font-family: "Oscine-bold";
+    font-size: 500%;
+}
+
+.col p {
+    padding: 0px 100px 0px 0px;
+    color: #9D9D9C;
+    font-size: 130%;
+}
+
+.col a button {
+    background-color: blanchedalmond;
+}
+
+.eduvirtual-a {
+    font-family: "Open-sans";
+    color: #9D9D9C;
+    font-size: 30px;
+
+}
+
+.eduvirtual-1 {
+    padding-left: 0PX;
+    padding-top: 60px;
+    background-color: transparent;
+}
+
+.col a button {
+    font-family: "Oscine-bold";
+    font-size: xx-large;
+    background-color: #006633;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 5px 80px 5px 80px;
+    border-radius: 50px;
+}
+
+.eduvirtual-2 {
+    background-color: white;
+}
+
+.eduvirtual-2 div h1 {
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: "Graduate";
+    color: #006633;
+}
+
+.eduvirtual-2 .eduvirtual-logos {
+    padding-bottom: 100px;
+}
+
+.carousel-inner {
+    padding: 0px 5% 0px 5%;
+}
+
+.eduvirtual-separator {
+    padding-top: 125px;
+    padding-left: 125px;
+}
+@media only screen and (max-width: 768px) {
+    html{
+        background-image: url("../img/backgroun_mobile-100.jpg");
+        background-size:contain;
+        background-position-x: right;
+        background-position-y: top;
+    }
+    .col h1 {
+        font-family: "Oscine-bold";
+        font-size:xx-large;
+    }
+    .col p {
+        padding: 0px;
+        font-size: medium;
+    }
+    .container .row .col{
+        padding-bottom: 50px;
+    }
+    .col a button{
+        padding: 5px 40px 5px 40px;
+        font-size: initial;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .eduvirtual-logos .container .row a{
+        padding-top: 25px;
+    }
+}

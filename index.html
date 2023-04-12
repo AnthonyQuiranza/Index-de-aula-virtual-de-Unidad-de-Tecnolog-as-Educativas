@@ -6,26 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDUVIRTUAL</title>
-    <link rel="stylesheet" href="./assets/css/eduvirtual.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./assets/css/helpbutton.css">
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./assets-eduvirtual/img/Favicon.png">
+    <link rel="stylesheet" href="./assets-eduvirtual/css/eduvirtual.css">
+    <link rel="stylesheet" href="./assets-eduvirtual/css/footer.css">
+    <link rel="stylesheet" href="./assets-eduvirtual/css/helpbutton.css">
+    <link rel="stylesheet" href="./assets-eduvirtual/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets-eduvirtual/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets-eduvirtual/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="./assets/scripts/button.js"></script>
+    <script src="./assets-eduvirtual/js/bootstrap.esm.min.js"></script>
+    <script src="./assets-eduvirtual/scripts/button.js"></script>
     <script src="https://kit.fontawesome.com/8fc3308ca3.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar animate__animated animate__backInLeft animate__slower" style="background-color: #00000000;">
-            <div class="container-fluid">
-                <a class="navbar-brand eduvirtual-menu" href="#">
-                    <img src="./assets/img/eduvirtual.png" alt="Logo"
+        <!-- <nav class="navbar animate__animated animate__backInLeft animate__slower" style="background-color: #00000000;">
+             <div class="container-fluid">
+                <a class="navbar-brand eduvirtual-menu" href="/">
+                    <img src="./assets-eduvirtual/img/eduvirtual.png" alt="Logo"
                         class="d-inline-block align-text-top eduvirtual-logo">
                     Inicio
                 </a>
+                
+            </div> 
+            
+        </nav> -->
+        <nav class="navbar navbar-expand-lg " style="background-color: #00000000;">
+            <div class="container-fluid">
+                <img src="./assets-eduvirtual/img/eduvirtual.png" alt="Logo" class="d-inline-block align-text-top eduvirtual-logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active eduvirtual-menu" aria-current="page" href="/">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle eduvirtual-menu" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Soporte técnico
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item eduvirtual-menu" href="https://wa.link/7iyly7">Ing. Anthony
+                                        Quiranza</a></li>
+                                <li><a class="dropdown-item eduvirtual-menu" href="https://wa.link/6ow8sr">MSc. Marco
+                                        Yandún</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -33,10 +68,8 @@
     <div class="container-button">
         <input type="checkbox" id="btn-mas">
         <div class="redes">
-            <a href="#">
-                <i class="fa-brands fa-whatsapp"></i> </a>
-            <a href="#">
-                <i class="fa-brands fa-whatsapp"></i> </a>
+            <a href="https://wa.link/6ow8sr">
+                <i class="fa-brands fa-whatsapp"></i></a>
         </div>
         <div class="btn-mas">
             <label for="btn-mas" class="bi bi-plus">
@@ -57,10 +90,6 @@
                         formas de representación, difusión y acceso al conocimiento
                         en los distintos contextos educativos
                     </p>
-                    <a href="https://eduvirtual.upec.edu.ec/login/index.php">
-                        <button class="eduvirtual-button animate__animated animate__pulse animate__infinite"
-                            type="button">Accede a tu Aula</button>
-                    </a>
                 </div>
                 <div class="col">
                 </div>
@@ -76,17 +105,17 @@
                 <div class="row row-cols-auto justify-content-center">
                     <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=7">
                         <div class="col">
-                            <img class="img-fluid" width="400px" src="./assets/img/educacionbasica.jpg" alt="">
-                        </div>
-                    </a>
-                    <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=8">
-                        <div class="col">
-                            <img class="img-fluid" width="400px" src="./assets/img/contabilidadyauditoria.jpg" alt="">
+                            <img class="img-fluid" width="400px" src="./assets-eduvirtual/img/educacionbasica.jpg" alt="">
                         </div>
                     </a>
                     <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=9">
                         <div class="col">
-                            <img class="img-fluid" width="400px" src="./assets/img/educacioninicial.jpg" alt="">
+                            <img class="img-fluid" width="400px" src="./assets-eduvirtual/img/contabilidadyauditoria.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=8">
+                        <div class="col">
+                            <img class="img-fluid" width="400px" src="./assets-eduvirtual/img/educacioninicial.jpg" alt="">
                         </div>
                     </a>
                 </div>
@@ -94,22 +123,24 @@
         </div>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/img/banner1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/banner2.jpg" class="d-block w-100" alt="...">
-              </div>
+                <div class="carousel-item active">
+                    <img src="./assets-eduvirtual/img/banner1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets-eduvirtual/img/banner2.jpg" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
         <div class="eduvirtual-separator">
         </div>
         <section class="contact-area" id="contact">
@@ -117,11 +148,14 @@
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3">
                         <div class="contact-content text-center">
-                            <a href="#"><img class="footer-img" src="./assets/img/logo_white.png" alt="logo"></a>
+                            <a href="#"><img class="footer-img" src="./assets-eduvirtual/img/logo_white.png" alt="logo"></a>
                             <div style="padding-top: 50px" ;></div>
                             <div class="hr"></div>
                             <h6>Soporte técnico</h6>
-                            <h6>+593 93 987 3948<span>|</span>+593 99 233 5953</h6>
+                            <h6><i class="fa-brands fa-whatsapp"></i><a href="https://wa.link/7iyly7"> +593 93 987
+                                    3948</a><span>|</span><i class="fa-brands fa-whatsapp"></i><a
+                                    href="https://wa.link/6ow8sr"> +593 99 233 5953</a></h6>
+                            <h6><i class="fa-solid fa-envelope"></i><a href="mailto:unidad.educativa@upec.edu.ec"> unidad.educativa@upec.edu.ec</a></h6>
                         </div>
                     </div>
                 </div>
