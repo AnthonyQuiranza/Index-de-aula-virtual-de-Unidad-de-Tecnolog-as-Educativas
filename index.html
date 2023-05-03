@@ -12,18 +12,16 @@
     <link rel="stylesheet" href="./assets-eduvirtual/css/helpbutton.css">
     <link rel="stylesheet" href="./assets-eduvirtual/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script src="./assets-eduvirtual/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets-eduvirtual/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="./assets-eduvirtual/js/bootstrap.esm.min.js"></script>
-    <script src="./assets-eduvirtual/scripts/button.js"></script>
-    <script src="https://kit.fontawesome.com/8fc3308ca3.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
 
 </head>
 
 <body>
     <header>
-        <!-- <nav class="navbar animate__animated animate__backInLeft animate__slower" style="background-color: #00000000;">
+        <!-- <nav class="navbar " style="background-color: #00000000;">
              <div class="container-fluid">
                 <a class="navbar-brand eduvirtual-menu" href="/">
                     <img src="./assets-eduvirtual/img/eduvirtual.png" alt="Logo"
@@ -36,7 +34,8 @@
         </nav> -->
         <nav class="navbar navbar-expand-lg " style="background-color: #00000000;">
             <div class="container-fluid">
-                <img src="./assets-eduvirtual/img/eduvirtual.png" alt="Logo" class="d-inline-block align-text-top eduvirtual-logo">
+                <img src="./assets-eduvirtual/img/eduvirtual.png" class="animate__animated animate__pulse animate__infinite	infinite" alt="Logo"
+                    class="d-inline-block align-text-top eduvirtual-logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -64,25 +63,12 @@
             </div>
         </nav>
     </header>
-    <!-- BOTÓN FLOTANTE -->
-    <div class="container-button">
-        <input type="checkbox" id="btn-mas">
-        <div class="redes">
-            <a href="https://wa.link/6ow8sr">
-                <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-        <div class="btn-mas">
-            <label for="btn-mas" class="bi bi-plus">
-                <i class="fa-regular fa-circle-question"></i> </label>
-        </div>
 
-    </div>
-    <!-- TERMINA BOTÓN FLOTANTE -->
-    <div class="eduvirtual-1 animate__animated animate__backInLeft animate__slower">
+    <div class="eduvirtual-1" >
         <div class="container">
             <div class="row align-items-start">
-                <div class="col">
-                    <h1>Unidad de Tecnología Educativa</h1>
+                <div class="col" data-aos="fade-up">
+                    <h1 id="title">Unidad de Tecnología Educativa</h1>
                     <p>
                         Es espacio pedagógico cuyo objeto es la gestión y creación de
                         los recursos de aprendizaje por medios de uso de las Tecnologías
@@ -96,26 +82,29 @@
             </div>
         </div>
     </div>
-    <div class="eduvirtual-2 animate__animated animate__backInLeft animate__slower">
+    <div class="eduvirtual-2 ">
         <div>
             <h1>ACCEDE A TU AULA VIRTUAL</h1>
         </div>
         <div class="eduvirtual-logos">
             <div class="container text-center">
                 <div class="row row-cols-auto justify-content-center">
-                    <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=7">
+                    <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=7" data-aos="flip-right" data-aos-duration="2000">
                         <div class="col">
-                            <img class="img-fluid" width="400px" src="./assets-eduvirtual/img/educacionbasica.jpg" alt="">
+                            <img class="img-fluid" width="400px" src="./assets-eduvirtual/img/educacionbasica.jpg"
+                                alt="">
                         </div>
                     </a>
-                    <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=9">
+                    <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=9" data-aos="flip-right" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
                         <div class="col">
-                            <img class="img-fluid" width="400px" src="./assets-eduvirtual/img/contabilidadyauditoria.jpg" alt="">
+                            <img class="img-fluid" width="400px"
+                                src="./assets-eduvirtual/img/contabilidadyauditoria.jpg" alt="">
                         </div>
                     </a>
-                    <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=8">
+                    <a href="https://eduvirtual.upec.edu.ec/course/index.php?categoryid=8" data-aos="flip-right" data-aos-duration="2000">
                         <div class="col">
-                            <img class="img-fluid" width="400px" src="./assets-eduvirtual/img/educacioninicial.jpg" alt="">
+                            <img class="img-fluid" width="400px" src="./assets-eduvirtual/img/educacioninicial.jpg"
+                                alt="">
                         </div>
                     </a>
                 </div>
@@ -148,14 +137,16 @@
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3">
                         <div class="contact-content text-center">
-                            <a href="#"><img class="footer-img" src="./assets-eduvirtual/img/logo_white.png" alt="logo"></a>
+                            <a href="#"><img class="footer-img animate__animated animate__pulse animate__infinite	infinite" src="./assets-eduvirtual/img/logo_white.png"
+                                    alt="logo"></a>
                             <div style="padding-top: 50px" ;></div>
                             <div class="hr"></div>
                             <h6>Soporte técnico</h6>
                             <h6><i class="fa-brands fa-whatsapp"></i><a href="https://wa.link/7iyly7"> +593 93 987
                                     3948</a><span>|</span><i class="fa-brands fa-whatsapp"></i><a
                                     href="https://wa.link/6ow8sr"> +593 99 233 5953</a></h6>
-                            <h6><i class="fa-solid fa-envelope"></i><a href="mailto:unidad.educativa@upec.edu.ec"> unidad.educativa@upec.edu.ec</a></h6>
+                            <h6><i class="fa-solid fa-envelope"></i><a href="mailto:unidad.educativa@upec.edu.ec">
+                                    unidad.educativa@upec.edu.ec</a></h6>
                         </div>
                     </div>
                 </div>
@@ -165,8 +156,20 @@
             <p>Copyright &copy; 2023 <b>Unidad de Tecnología Educativa</b>. Todos los derechos reservados.
             </p>
         </footer>
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
+
+        <script src="./assets-eduvirtual/bootstrap/js/bootstrap.min.js"></script>
+        <script>
+            AOS.init();
+            $('#title').typeIt();
+          </script>
+        <script src="./assets-eduvirtual/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="./assets-eduvirtual/scripts/button.js"></script>
+        <script src="https://kit.fontawesome.com/8fc3308ca3.js" crossorigin="anonymous"></script>
+        <script src="./assets-eduvirtual/js/helpbutton.js"></script>
 </body>
 
 </html>
